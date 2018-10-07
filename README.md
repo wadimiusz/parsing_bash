@@ -8,4 +8,4 @@ To extract quotes between 1 Aug 2018 and 31 Aug 2018 and store them output.txt i
 
 To learn how to use parameters of main.py, run
 	
-	main.py --help.
+	main.py --help

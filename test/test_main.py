@@ -66,5 +66,6 @@ class TestQuoteIterator(unittest.TestCase):
         quote = next(quote_iter)
         self.assertIsInstance(quote, Quote)
 
+
 if __name__ == '__main__':
     unittest.main(verbosity=2)
