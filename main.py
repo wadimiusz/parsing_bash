@@ -113,6 +113,7 @@ def get_range(date_from: datetime.date, date_to: datetime.date):
         else:
             yield quote
 
+
 def main():
     parser = ArgumentParser()
     parser.add_argument('-df', '--date_from', dest='date_from', type=str, default="2018-08-01",
@@ -134,6 +135,7 @@ def main():
     with open(output, encoding='utf-8', mode='w') as f:
         for quote in get_range(date_from, date_to):
             f.write(str(quote) + '\n')
+
 
 if __name__ == '__main__':
     main()
