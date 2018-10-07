@@ -1,4 +1,4 @@
-This is a term project on requests and BeautifulSoup.
+This is a homework on requests and BeautifulSoup.
 
 It extracts quotes from bash.im between two certain dates and puts them into a .txt-file.
 
