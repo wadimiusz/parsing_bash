@@ -43,6 +43,7 @@ class PageIterator(object):
             raise ValueError("Status code is {n}, not 200, probably some connection error".format(
                 n=answer.status_code
             ))
+
         text = answer.text
         soup = BeautifulSoup(text)
         if len(soup.findAll('div', {"class": "pager"})) == 2:
